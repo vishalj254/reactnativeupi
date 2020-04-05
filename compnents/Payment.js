@@ -1,29 +1,3 @@
-// import React, {useState} from 'react';
-// import {View, Text} from 'react-native';
-// import RNUpiPayment from 'react-native-upi-payment';
-// /*
-//     npm install react-native-upi-payment
-//     react-native link
-// */
-
-// export default function Payment (props) {
-//   const [status, setstatus] = useState(null)
-//     // Status: '',
-//     //   txnId: '',
-
-//     return (
-//       <View style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
-//         <Text
-//           onPress={() => {
-//             floo();
-//           }}>
-//           OPEN
-//         </Text>
-//         <Text>{this.state.Status + ' ' + this.state.txnId}</Text>
-//       </View>
-//     );
-
-// }
 import React, {useState} from 'react';
 import {
   StyleSheet,
